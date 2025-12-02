@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+
+    .pagina {
+        width: 100%;
+    }
+
+    .texto-slide h1 {
+        font-size: 16px;
+    }
+
+    .texto-slide p {
+        font-size: 12px;
+    }
+
+}

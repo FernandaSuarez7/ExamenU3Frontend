@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinderex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Abel|Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="movil.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="pagina">
+
+    <header class="cabecera-movil">
+        <div class="icono-menu" id="iconomenu">
+            &#9776;
+        </div>
+
+        <div class="logo-cabecera">
+            <img src="imagenes/logo_cabecera.png" alt="Kinderex">
+        </div>
+    </header>
+
+    <nav class="menu-movil" id="menumovil">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes">Quienes Somos</a></li>
+            <li><a href="#programas">Nuestros programas</a></li>
+            <li><a href="#instalaciones">Instalaciones</a></li>
+            <li><a href="#precios">Precios</a></li>
+        </ul>
+    </nav>
+
+    <section class="seccion-inicio" id="inicio">
+        <div class="contenedor-slider">
+            <div class="slide-principal">
+                <img src="imagenes/slide1.jpg" alt="Niños pintando">
+                <div class="texto-slide">
+                    <h1>
+                        <span class="titulo-grande">A Perfect Learning Center</span>
+                        <span class="subtitulo-kids">for Your Kids</span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="slide-principal">
+                <img src="imagenes/slide2.jpg" alt="Niño con lentes">
+                <div class="texto-slide">
+                    <h1>
+                        <span class="titulo-grande">A Perfect Learning Center</span>
+                        <span class="subtitulo-kids">for Your Kids</span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="slide-principal">
+                <img src="imagenes/slide3.jpg" alt="Niño con bloques">
+                <div class="texto-slide">
+                    <h1>
+                        <span class="titulo-grande">A Perfect Learning Center</span>
+                        <span class="subtitulo-kids">for Your Kids</span>
+                    </h1>
+                </div>
+            </div>
+
+            <button class="btn-flecha btn-izquierda" id="btn-anterior">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="btn-flecha btn-derecha" id="btn-siguiente">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="seccion-servicios">
+
+        <article class="tarjeta-servicio tarjeta-verde">
+            <div class="contenido-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="texto-servicio">
+                    <h3>Special Education</h3>
+                    <p class="parrafo-servicio">
+                        Our Special Education Program offers quality education to children
+                        with disabilities and developmental delays.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article class="tarjeta-servicio tarjeta-azul">
+            <div class="contenido-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="texto-servicio">
+                    <h3>Full Day Session</h3>
+                    <p class="parrafo-servicio">
+                        At Kinderex, we offer full-day preschool sessions built on
+                        a play-based approach for kids ages two to five.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article class="tarjeta-servicio tarjeta-naranja">
+            <div class="contenido-servicio">
+                <div class="icono-servicio">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="texto-servicio">
+                    <h3>Qualified Teachers</h3>
+                    <p class="parrafo-servicio">
+                        Our team consists of experienced and creative teachers who
+                        are dedicated to your kids’ successful education.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article class="tarjeta-servicio tarjeta-morada">
+            <span class="subtitulo-servicio">The Best Preschool</span>
+            <h3>Providing Quality Education in a Creative Environment</h3>
+
+            <button class="btn-modal" id="btn-modal">
+                Solicita Información
+            </button>
+        </article>
+
+    </section>
+
+    <section class="seccion-quienes" id="quienes">
+        <div class="bloque-quienes">
+            <h2>Quienes somos</h2>
+            <p class="quienes-texto">
+                At our education center, we provide a variety of benefits and advantages for your kids’ successful
+                education, while allowing your kid to stay fully active, creative, and healthy.
+            </p>
+        </div>
+
+        <div class="lista-beneficios">
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-user-shield"></i>
+                </div>
+                <h4>Safety First</h4>
+                <p>
+                    We offer first-class protection and security for your children at Kinderex.
+                </p>
+            </article>
+
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+                <h4>Small Class Size</h4>
+                <p>
+                    All classes at our center have up to 6 students regardless of the curriculum.
+                </p>
+            </article>
+
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h4>Certified Teachers</h4>
+                <p>
+                    We hire only the most experienced and certified teachers for your children.
+                </p>
+            </article>
+
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <h4>Infant Care</h4>
+                <p>
+                    Meeting the educational needs of infants through quality infant care.
+                </p>
+            </article>
+
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h4>Creative Lessons</h4>
+                <p>
+                    Our curriculum was designed to nurture creativity in all students of Kinderex.
+                </p>
+            </article>
+
+            <article class="beneficio">
+                <div class="beneficio-icono">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <h4>Happy Environment</h4>
+                <p>
+                    The best conditions for your child to have a unique learning experience.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="seccion-programas" id="programas">
+        <div class="encabezado-programas">
+            <div class="flechas-programas">
+                <button class="flecha-programa" id="prog-anterior">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="flecha-programa" id="prog-siguiente">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <h2>Nuestros Programas</h2>
+        </div>
+
+        <div class="contenedor-programas">
+            <div class="item-programa">
+                <div class="tarjeta-programa">
+                    <img src="imagenes/carrousel1.jpg" alt="Arts Programs" class="imagen-programa">
+                    <div class="contenido-programa">
+                        <h3>Arts Programs</h3>
+                        <p>
+                            These programs provide extensive art experiences and activities for kids and teens.
+                        </p>
+                        <p class="profesor">
+                            Teacher: <span>Stephen Rose</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-programa">
+                <div class="tarjeta-programa">
+                    <img src="imagenes/carrousel2.jpg" alt="Foreign Language Programs" class="imagen-programa">
+                    <div class="contenido-programa">
+                        <h3>Foreign Language Programs</h3>
+                        <p>
+                            The goal of these programs is to prepare your child for better foreign language studying.
+                        </p>
+                        <p class="profesor">
+                            Teacher: <span>Catherine White</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-programa">
+                <div class="tarjeta-programa">
+                    <img src="imagenes/carrousel3.jpg" alt="Sports Programs" class="imagen-programa">
+                    <div class="contenido-programa">
+                        <h3>Sports Programs</h3>
+                        <p>
+                            Competitive activities and movement classes form the basis of these programs.
+                        </p>
+                        <p class="profesor">
+                            Teacher: <span>Stephen Rose</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-instalaciones" id="instalaciones">
+        <h2>Instalaciones</h2>
+
+        <div class="galeria-instalaciones">
+            <a href="imagenes/galeria1.jpg" data-fancybox="galeria">
+                <img src="imagenes/galeria1.jpg" alt="Instalación 1">
+            </a>
+            <a href="imagenes/galeria2.jpg" data-fancybox="galeria">
+                <img src="imagenes/galeria2.jpg" alt="Instalación 2">
+            </a>
+            <a href="imagenes/galeria3.jpg" data-fancybox="galeria">
+                <img src="imagenes/galeria3.jpg" alt="Instalación 3">
+            </a>
+            <a href="imagenes/galeria4.jpg" data-fancybox="galeria">
+                <img src="imagenes/galeria4.jpg" alt="Instalación 4">
+            </a>
+        </div>
+    </section>
+
+    <section class="seccion-precios" id="precios">
+        <h2>Precios</h2>
+
+        <div class="acordeon-precios">
+            <div class="item-precio plan-azul">
+                <div class="tarjeta-precio">
+                    <button class="encabezado-precio">
+                        <span>Infants</span>
+                        <span class="icono-mas">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                    </button>
+                    <div class="contenido-precio">
+                        <img src="imagenes/nina_1.png" alt="Infants" class="img-plan">
+                        <p class="texto-plan">
+                            This plan provides a full set of classes for infants, perfectly suited for making the first
+                            transition away from home natural and easy for your child.
+                        </p>
+                        <p class="precio-mensual">$59.00/mo</p>
+                        <button class="btn-signup">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-precio plan-melon">
+                <div class="tarjeta-precio">
+                    <button class="encabezado-precio">
+                        <span>Kids</span>
+                        <span class="icono-mas">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                    </button>
+                    <div class="contenido-precio">
+                        <img src="imagenes/nino_2.png" alt="Kids" class="img-plan">
+                        <p class="texto-plan">
+                            Our Kids plan is aimed at practicing the skills needed for kindergarten success, like
+                            following directions, reading, and writing.
+                        </p>
+                        <p class="precio-mensual">$99.00/mo</p>
+                        <button class="btn-signup">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-precio plan-morado">
+                <div class="tarjeta-precio">
+                    <button class="encabezado-precio">
+                        <span>Early Kindergarten</span>
+                        <span class="icono-mas">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                    </button>
+                    <div class="contenido-precio">
+                        <img src="imagenes/nina_3.png" alt="Early Kindergarten" class="img-plan">
+                        <p class="texto-plan">
+                            This plan is intended for our young 5-year-olds who miss the cut-off date for Kindergarten
+                            entrance or for those who need more time to prepare.
+                        </p>
+                        <p class="precio-mensual">$199.00/mo</p>
+                        <button class="btn-signup">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pie-pagina" id="pie">
+        <button class="btn-subir" id="btn-subir">
+            <i class="fas fa-arrow-circle-up"></i>
+        </button>
+
+        <div class="pie-contenido">
+            <div class="pie-logo">
+                <img src="imagenes/logofooter.png" alt="Kinderex">
+            </div>
+
+            <p class="pie-texto">
+                Kinderex is a creative and progressive education center where young children receive a warm, happy
+                and enriching educational experience. We provide students with the highest quality education.
+            </p>
+
+            <h4 class="pie-titulo-contacto">Contact Information</h4>
+
+            <ul class="pie-contacto">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    2130 Fulton Street, San Diego, CA
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    +1 (858) 123 45 67
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    info@kinderex.com
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="fondo-modal" id="fondo-modal">
+        <div class="caja-modal">
+            <span class="cerrar-modal" id="cerrar-modal">X</span>
+
+            <h3>Solicita información</h3>
+
+            <img src="imagenes/foto_modal.jpg" alt="Niños" class="imagen-modal">
+
+            <p class="texto-modal">
+                At Kinderex, our mission is to provide excellence in preschool, kindergarten,
+                before and after school programs and summer camp for families living in the
+                greater local area. Here you'll find exceptional teachers, curriculum and
+                learning environments that encourage children to learn, play, and explore in a
+                safe, healthy, and nurturing environment promoting creative thinking.
+            </p>
+
+            <button type="button" class="btn-enviar">Send</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
